@@ -4,6 +4,7 @@ let counter = 0;
 
 button.onclick = function () {
   button.disabled = true;
+  counter = 0;
   let countInterval = setInterval(function () {
     counter += 1;
     count.innerHTML = counter;
